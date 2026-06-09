@@ -78,9 +78,11 @@ namespace QuanLyNhaHangAPI
                 app.UseSwaggerUI();
             }
 
+            app.UseHttpsRedirection();
+
             app.UseCors("AllowAngular"); // Áp dụng CORS trước Authentication
 
-            app.UseHttpsRedirection();
+            app.UseAuthentication();
 
             app.UseAuthorization();
 
