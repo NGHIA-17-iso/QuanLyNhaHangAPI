@@ -424,3 +424,4 @@ D:\QuanLyNhaHangAPI\QuanLyNhaHangAPI\QuanLyNhaHangAPI\obj\Debug\net8.0\refint\Qu
 D:\QuanLyNhaHangAPI\QuanLyNhaHangAPI\QuanLyNhaHangAPI\obj\Debug\net8.0\QuanLyNhaHangAPI.pdb
 D:\QuanLyNhaHangAPI\QuanLyNhaHangAPI\QuanLyNhaHangAPI\obj\Debug\net8.0\QuanLyNhaHangAPI.genruntimeconfig.cache
 D:\QuanLyNhaHangAPI\QuanLyNhaHangAPI\QuanLyNhaHangAPI\obj\Debug\net8.0\ref\QuanLyNhaHangAPI.dll
+D:\QuanLyNhaHangAPI\QuanLyNhaHangAPI\QuanLyNhaHangAPI\obj\Debug\net8.0\QuanLyNhaHangAPI.sourcelink.json

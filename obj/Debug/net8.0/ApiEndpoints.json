@@ -53,6 +53,132 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "QuanLyNhaHangAPI.Controllers.FoodManagementController",
+    "Method": "GetFoods",
+    "RelativePath": "api/FoodManagement",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "QuanLyNhaHangAPI.Controllers.FoodManagementController",
+    "Method": "CreateFood",
+    "RelativePath": "api/FoodManagement",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "QuanLyNhaHangAPI.Models.CreateFoodRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "QuanLyNhaHangAPI.Controllers.FoodManagementController",
+    "Method": "UpdateFood",
+    "RelativePath": "api/FoodManagement/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "QuanLyNhaHangAPI.Models.UpdateFoodRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "QuanLyNhaHangAPI.Controllers.FoodManagementController",
+    "Method": "DeleteFood",
+    "RelativePath": "api/FoodManagement/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "QuanLyNhaHangAPI.Controllers.TableManagementController",
+    "Method": "GetTables",
+    "RelativePath": "api/TableManagement",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "QuanLyNhaHangAPI.Controllers.TableManagementController",
+    "Method": "CreateTable",
+    "RelativePath": "api/TableManagement",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "QuanLyNhaHangAPI.Models.CreateTableRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "QuanLyNhaHangAPI.Controllers.TableManagementController",
+    "Method": "UpdateTable",
+    "RelativePath": "api/TableManagement/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "QuanLyNhaHangAPI.Models.UpdateTableRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "QuanLyNhaHangAPI.Controllers.TableManagementController",
+    "Method": "DeleteTable",
+    "RelativePath": "api/TableManagement/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "QuanLyNhaHangAPI.Controllers.UserManagementController",
     "Method": "GetUsers",
     "RelativePath": "api/UserManagement",
